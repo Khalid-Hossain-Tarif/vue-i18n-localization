@@ -307,7 +307,6 @@ const { locale } = useI18n();
 
 const changeLocale = () => {
   if (locale.value == 'ar') {
-    document.querySelector('body').classList.toggle('rtl');
     document.body.dir = "rtl";
   } else {
     document.body.dir = "ltr";
